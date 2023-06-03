@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "738725368252",
+    "firebase_url": "https://sos-app-b09b1-default-rtdb.firebaseio.com",
+    "project_id": "sos-app-b09b1",
+    "storage_bucket": "sos-app-b09b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738725368252:android:565749834e556983c65bb9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_training_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtFYZ9Pm7fZY2eyYCiehugyy5tklvL828"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738725368252:android:b4907f421efd3c83c65bb9",
+        "android_client_info": {
+          "package_name": "flutter_training_app.caasitech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtFYZ9Pm7fZY2eyYCiehugyy5tklvL828"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
