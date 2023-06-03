@@ -48,7 +48,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 TextReuse(
                   controller: emailController,
                   hintText: 'Enter email',
-                  prefixIcon: const Icon(Icons.email, size: 30),
+                  prefixIcon: const Icon(Icons.email, size: 40),
                 ),
                 const SizedBox(
                   height: 20,
@@ -59,14 +59,14 @@ class _LoginScreenState extends State<LoginScreen> {
                   obscureText: obscureText,
                   prefixIcon: Transform.flip(
                     flipX: true,
-                    child: const Icon(Icons.key, size: 30),
+                    child: const Icon(Icons.key, size: 40),
                   ),
                   suffixIcon: IconButton(
                     icon: Icon(
                         obscureText
                             ? Icons.visibility_off_outlined
                             : Icons.visibility_outlined,
-                        size: 30),
+                        size: 40),
                     onPressed: () {
                       setState(() {
                         obscureText = !obscureText;

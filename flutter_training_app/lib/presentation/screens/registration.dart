@@ -58,7 +58,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 TextReuse(
                   controller: phoneController,
                   hintText: 'Phone',
-                  prefixIcon: const Icon(Icons.phone, size: 30),
+                  prefixIcon: const Icon(Icons.phone, size: 40),
                 ),
                 const SizedBox(
                   height: 20,
@@ -66,7 +66,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 TextReuse(
                   controller: emailController,
                   hintText: 'Enter email',
-                  prefixIcon: const Icon(Icons.email, size: 30),
+                  prefixIcon: const Icon(Icons.email, size: 40),
                 ),
                 const SizedBox(
                   height: 20,
@@ -77,14 +77,14 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   obscureText: obscureText,
                   prefixIcon: Transform.flip(
                     flipX: true,
-                    child: const Icon(Icons.key, size: 30),
+                    child: const Icon(Icons.key, size: 40),
                   ),
                   suffixIcon: IconButton(
                     icon: Icon(
                       obscureText
                           ? Icons.visibility_off_outlined
                           : Icons.visibility_outlined,
-                      size: 30,
+                      size: 40,
                     ),
                     onPressed: () {
                       setState(() {
