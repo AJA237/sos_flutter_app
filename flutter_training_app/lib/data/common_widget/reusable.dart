@@ -53,7 +53,7 @@ Container signInSignUpButton(
     decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(90),
         gradient: const LinearGradient(
-            colors: [Color(0xffD31919), Color(0xffEE3434)],
+            colors: [Color(0xffD31919), Color(0xffEE3434), Color(0xfffefefe)],
             begin: Alignment.centerLeft,
             end: Alignment.centerRight)),
     child: ElevatedButton(
